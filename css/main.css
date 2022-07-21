@@ -62,19 +62,33 @@ main figure + p {
 
 blockquote {
   font-size: .8rem;
-  font-style: italic;
+}
 
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote strong {
+  font-weight: normal;
 }
 .serving {
   font-style: italic;
 }
 
-dl > dt {
+dt {
   font-weight: bold;
 }
 
-ul > li {
-  font-size: 0.8rem;
+.varieties {
+  list-style-type: lower-greek;
 }
 
-body
+aside ul {
+  font-size: .8rem;
+  list-style-type:circle;
+}
+
+small {
+  font-size: .8rem;
+}
