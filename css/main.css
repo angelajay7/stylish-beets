@@ -6,6 +6,10 @@ html {
   box-sizing: border-box;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 img {
   width: 100%;
 }
@@ -21,8 +25,28 @@ figcaption {
   text-align: center;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+nav {
+
+  font-size: 1.125rem;
+  font-weight: bold;
+
+  font-family: "PT", sans-serif;
 }
+
+nav ol {
+
+  list-style-type: none;
+}
+
+nav a {
+
+  color: ##8f2440;
+  text-decoration: none;
+
+}
+nav a:hover {
+  color: #3f1622;
+}
+> .blockquote
 
 body
