@@ -1,58 +1,70 @@
 html {
-  background-color: #c9b5ab;
-  font-family: "PT", serif;
-  line-height: 1.5;
-  color: #222;
   box-sizing: border-box;
+  background-color: #c9b5ab;
+  color: #222;
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
 img {
   width: 100%;
 }
 
-h1, h2 {
+a {
+
+  color: #8f2440;
+  text-decoration: none;
+
+}
+a:hover {
   color: #3f1622;
-  font-family: "PT", sans-serif;
+  text-decoration: underline;
 }
 
-figcaption {
-  font-family: "PT",serif;
-  font-style: italic;
-  text-align: center;
+h1, h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 nav {
-
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
-
-  font-family: "PT", sans-serif;
 }
 
 nav ol {
-
   list-style-type: none;
 }
 
-nav a {
-
-  color: #8f2440;
-  text-decoration: none;
-
-}
-nav a:hover {
-  color: #3f1622;
+figure {
+  text-align: center;
 }
 
-footer a {
-  color: #8f2440;
-  text-decoration: none;
+figcaption {
+  font-style: italic;
 }
 
+main figure + p {
+  font-weight: bold;
+  font-size: 1.125rem
+}
+
+blockquote {
+  font-size: .8rem;
+  font-style: italic;
+
+}
 .serving {
   font-style: italic;
 }
@@ -61,6 +73,8 @@ dl > dt {
   font-weight: bold;
 }
 
-> .blockquote
+ul > li {
+  font-size: 0.8rem;
+}
 
 body
