@@ -1,7 +1,8 @@
 html {
-  background-color: #c9b5ab,
+  background-color: #c9b5ab;
   font-family: "PT", serif;
-  line-height: 1.5
+  line-height: 1.5;
+  color: #222;
   box-sizing: border-box;
 }
 
@@ -12,6 +13,12 @@ img {
 h1, h2 {
   color: #3f1622;
   font-family: "PT", sans-serif;
+}
+
+figcaption {
+  font-family: "PT",serif;
+  font-style: italic;
+  text-align: center;
 }
 
 *, *::before, *::after {
