@@ -50,6 +50,11 @@ nav a:hover {
 
 footer a {
   color: #8f2440;
+  text-decoration: none;
+}
+
+.serving {
+  font-style: italic;
 }
 
 > .blockquote
