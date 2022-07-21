@@ -57,6 +57,10 @@ footer a {
   font-style: italic;
 }
 
+dl > dt {
+  font-weight: bold;
+}
+
 > .blockquote
 
 body
