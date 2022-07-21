@@ -13,6 +13,7 @@ html {
 body {
   margin: 0;
 }
+
 img {
   width: 100%;
 }
@@ -21,8 +22,8 @@ a {
 
   color: #8f2440;
   text-decoration: none;
-
 }
+
 a:hover {
   color: #3f1622;
   text-decoration: underline;
@@ -72,6 +73,7 @@ blockquote p {
 blockquote strong {
   font-weight: normal;
 }
+
 .serving {
   font-style: italic;
 }
@@ -86,7 +88,7 @@ dt {
 
 aside ul {
   font-size: .8rem;
-  list-style-type:circle;
+  list-style-type: circle;
 }
 
 small {
