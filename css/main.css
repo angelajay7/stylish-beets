@@ -59,6 +59,7 @@ figcaption {
 main figure + p {
   font-weight: bold;
   font-size: 1.125rem
+  font-size: 1.125rem;
 }
 
 blockquote {
